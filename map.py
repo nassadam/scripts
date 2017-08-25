@@ -7,8 +7,10 @@ import argparse
 import os
 import math
 
-
+path = os.getcwd()
+print(path)
 with open("phase-1_Rg_values.log", 'r') as input_file:
     for numbers in input_file:
-        print (numbers)
+        a = numbers.strip('\n')
+        print (a)
          
